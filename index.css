@@ -1,0 +1,102 @@
+
+:root {
+    --border-radius: 5px;
+    --border-width: 1px;
+    --light-grey: #e2e0e0;
+    --blue: #7f6cfc;
+    --orange: #ffc877;
+    --red: #c14444;
+}
+.Headling{
+    width: 100%;
+    height: 10%;
+    background-color: lightpink;
+    border: 2px solid lightpink;
+    /* padding: 25px; */
+}
+
+
+.Headling h2{
+    background-color:  #915050;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+
+}
+.Headling h2 span{
+
+    font-style: italic;
+}
+#Calculater{
+    height:80%;
+    width: 45%;
+    min-width: 300px;
+    min-height: 400px;
+    background-color: var(--light-grey);
+    border: 2px solid var(--light-grey) ;
+    border-radius: var(--border-radius);
+    margin-left: 27%;
+    margin-top: 1%;
+    padding: 10px;
+  
+}
+#display-contaner{
+    height: 20%;
+    width: 100%;
+    font-size: 2.8rem;
+    display: flex;
+    min-height: 100px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color:whitesmoke ;
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+    color: var(--blue);
+}
+
+#buttan-contaner{
+    width: 100%;
+    height: 60%;
+    min-height: 300px;
+    display: flex;
+    border: var(--border-width) solid var(--light-grey);
+    border-radius: var(--border-radius);
+    background-color: var(--light-grey);
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.buttan{
+    width: 20%;
+    height: 20%;
+    min-height: 60px;
+    border: var(--border-width) solid var(--light-grey);
+    border-radius: var(--border-radius);
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+    font-size: 1.8rem;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+   
+   
+}
+#display-contaner p{
+    margin: 00.5rem;
+    vertical-align: text-bottom;
+}
+.button-zero {
+    width: 45%;
+}
+.Red{
+   background-color: var(--red);
+}
+#Calculater h2{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+
+}
